@@ -9,6 +9,6 @@ A simple clean one-page business site for All Area Scaffolding. With the primary
 - jQuery
 - CSS
 - HTML5
-- 
+
 ###Wireframes
 (insert images of wireframes /  site design mock-up)
