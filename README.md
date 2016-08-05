@@ -2,7 +2,7 @@
 
 ###The Purpose
 
-A simple clean one-page business site for All Area Scaffolding. With the primary objective of supporting the businesses marketing reach and to meet todays customer expectations.
+A simple clean one-page business site for All Area Scaffolding. With the primary objective of supporting the businesses marketing reach and to meet customer expectations.
 
 ###Technologies
 - Bootstrap
