@@ -3,10 +3,259 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Main CSS Styling -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,900' rel='stylesheet' type='text/css'>
+  <!-- JS Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
   <title>All Area Scaffolding</title>
 </head>
 <body>
+  <!-- Top banner and logo -->
+  <div class="container top-banner">
+    <div class="row">
+      <a class="navbar-brand" href="#"><img id="logo" src="styles/img/logo.png"></a>
+    </div>
+  </div>
+  <!-- Navigation bar and menu -->
+  <div class="container menu">
+    <nav id="menu_row" class="navbar navbar-default inbanner " role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul id="menu-menu-1" class="nav navbar-nav">
+          <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4 active"><a title="Home" class="scrolltrue" href="#home">Home</a>
+          </li>
+          <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-7"><a title="About" class="scrolltrue" href="#about">About</a>
+          </li>
+          <li id="menu-item-8" class="hidden-sm menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-8"><a title="Testmonial" class="scrolltrue" href="#test">Our Services</a>
+          </li>
+          <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-9"><a title="Team" class="scrolltrue" href="#team">Team</a>
+          </li>
+          <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a title="Contact" class="scrolltrue" href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </div>
+
+  <!-- Carousel / slideshow -->
+  <div class="container slideshow-container">
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example" data-slide-to="1"></li>
+        <li data-target="#carousel-example" data-slide-to="2"></li>
+      </ol>
+    <div class="carousel-inner">
+    <div class="item active">
+      <a href="#"><img src="https://unsplash.it/1600/600/" /></a>
+      <div class="carousel-caption">
+        <h3>First slide image</h3>
+        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="https://unsplash.it/1601/600/" /></a>
+      <div class="carousel-caption">
+        <h3>Second slide image</h3>
+        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="https://unsplash.it/1604/600/" /></a>
+      <div class="carousel-caption">
+        <h3>Third slide image</h3>
+        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+      </div>
+    </div>
+    </div>
+      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- About us -->
+  <div class="container about-container">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="about-title h1">About Us
+        </div>
+        <div class="about-sub-title h4">A little bit of background on our fabulous company.
+        </div>
+        <p class="about-desc">Uenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.Cum sociis natoque penatibus.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="60" height="60">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="60" height="60">
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="60" height="60">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  <!-- Our Services -->
+  <div class="container-fluid services">
+  <div class="container services-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="services-title h1">Our Services
+        </div>
+        <div class="about-sub-title h4">A little bit about the services we offer.
+        </div>
+        <p class="about-desc">Uenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.Cum sociis natoque penatibus.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Team -->
+  <div class="container team-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="team-title h1">Meet the Team
+        </div>
+        <div class="team-sub-title h4">Showcase the great people behind your company.
+        </div>
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="team-item" style="visibility: visible; ">
+          <img class="img-responsive img-circle center-block" src="http://demo.themeshift.com/simpleshift/wp-content/themes/simpleshift-pro/images/preview/184x184-6.jpg">
+          <h4 class="team-item-title">Name</h4>
+          <h5 class="team-item-sub-title">Position</h5>
+          <p class="team-social-icons"><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a></p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-item" style="visibility: visible; ">
+          <img class="img-responsive img-circle center-block" src="http://demo.themeshift.com/simpleshift/wp-content/themes/simpleshift-pro/images/preview/184x184-1.jpg">
+          <h4 class="team-item-title">Name</h4>
+          <h5 class="team-item-sub-title">Position</h5>
+          <p class="team-social-icons"><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a></p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-item" style="visibility: visible; ">
+          <img class="img-responsive img-circle center-block" src="http://demo.themeshift.com/simpleshift/wp-content/themes/simpleshift-pro/images/preview/184x184-2.jpg">
+          <h4 class="team-item-title">Name</h4>
+          <h5 class="team-item-sub-title">Position</h5>
+          <p class="team-social-icons"><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a></p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact us -->
+  <div class="container contact-form">
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Contact Us Today!</legend>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label">First Name</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+      </div>
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" >Last Name</label> 
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+      </div>
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label">E-Mail</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+      </div>
+      </div>
+    </div>
+
+
+    <!-- Text input phone-->   
+    <div class="form-group">
+      <label class="col-md-4 control-label">Phone #</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+      <input name="phone" placeholder="(09) 555-1212" class="form-control" type="text">
+      </div>
+      </div>
+    </div>
+
+     <!-- Text area message /  project description-->
+    <div class="form-group">
+      <label class="col-md-4 control-label">Project Description</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+      <textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+      </div>
+      </div>
+    </div>
+
+    <!-- Success message -->
+    <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+    <!-- Submit button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4">
+      <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+
+      </fieldset>
+      </form>
+    </div>
+  </div><!-- /.container -->
 </body>
 </html>

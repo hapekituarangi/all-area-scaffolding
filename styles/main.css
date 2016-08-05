@@ -1,0 +1,130 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*---- HTML styling ----*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+body {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  position: relative;
+  font-family: 'Lato',sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555555;
+  line-height: 1.6;
+  text-transform: none;
+  /*background-color: #eeedec;*/
+}
+/*---- Top Banner & Logo ----*/
+#logo {
+  width: 20%;
+  padding-bottom: 50px;
+  display: block;
+}
+/*---- Navbar & Menu ----*/
+#menu_row {
+  margin-top: 8%;
+}
+.navbar {
+ /* background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;*/
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+/*---- Carousel | Slideshow ----*/
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel h3 {
+  font-weight: 500;
+}
+/*---- About us ----*/
+.about-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.about-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.about-desc {
+  text-align: center;
+  max-width: 60%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+/*---- Our Services ----*/
+.services-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center
+}
+
+.services {
+  background-color: #eeedec;
+}
+.services-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/*--- Meet the Team ----*/
+.team-container {
+  text-align: center
+}
+
+.team-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/*---- Contact us ----*/
+#success_message { 
+  display: none;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
