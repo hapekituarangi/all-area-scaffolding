@@ -17,6 +17,7 @@ body {
   color: #555555;
   line-height: 1.6;
   text-transform: none;
+  text-align: center;
   /*background-color: #eeedec;*/
 }
 /*---- Top Banner & Logo ----*/
@@ -25,9 +26,33 @@ body {
   padding-bottom: 50px;
   display: block;
 }
+#brand {
+  width: 5%;
+}
 /*---- Navbar & Menu ----*/
+.nav.navbar-nav {
+  text-align: center;
+  /*float: right;*/
+}
 #menu_row {
   margin-top: 8%;
+  background: white;
+}
+.background-image {
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .9;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+.home-image {
+  background: url("https://unsplash.it/1601/600/") no-repeat center top fixed;
+  background-size: cover;
+  z-index: -1
 }
 .navbar {
  /* background: rgba(0,0,0,.3);
@@ -44,6 +69,54 @@ body {
 }
 
 /*---- Carousel | Slideshow ----*/
+.banner-title {
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  line-height: 46px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.banner-sub-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  line-height: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.btn-simpleshift, a.btn-simpleshift {
+  padding: 7px 15px;
+  font-size: 16px;
+  display: inline-block;
+  color: #ffffff;
+  border: 3px solid #d65050;
+  background: #d65050;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 150px;
+}
+
+.slideshow-container {
+
+}
 .carousel {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -52,13 +125,15 @@ body {
   font-weight: 500;
 }
 /*---- About us ----*/
+.about {
+  background: white;
+}
 .about-container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  padding-top: 50px;
   padding-bottom: 70px;
 }
 .about-title {
@@ -95,13 +170,78 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
-
-/*--- Meet the Team ----*/
-.team-container {
-  text-align: center
+/*--- Action 1 ---*/
+.action-1 {
+  background-color: rgb(214,80,80);
+  padding: 60px 0 80px;
+}
+.action1-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.action1-sub-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.action1-link-button {
+  text-align: center;
+  padding: 7px 15px;
+  font-size: 16px;
+  display: inline-block;
+  color: #ffffff;
+  border: 3px solid #fff;
+  background: #d65050;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.team-title {
+/*---- Testimonials ----*/
+.frontpage-test {
+  background: #555555;
+  padding: 120px 0 130px;
+  color: #fff;
+}
+.frontpage-test .test-title {
+  padding-top: 0px;
+  text-align: center;
+  font-weight: 300;
+}
+.frontpage-test .test-desc {
+  font-size: 20px;
+  font-style: italic;
+  padding: 5px 0 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.frontpage-test .test-tag {
+  text-align: right;
+  font-weight: 300;
+}
+
+/*--- Meet the Team ----*/
+.team-wrap {
+  padding-top: 50px;
+  background: white;
+  padding-bottom: 120px;
+}
+.team-container {
+  text-align: center;
+}
+
+.team-item-title {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-family: 'Lato',sans-serif;
@@ -109,7 +249,37 @@ body {
   line-height: 1.6;
 }
 
+.team-item {
+  border: 1px solid #b5b5b5;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.team-social-icons a i {
+  border: 1px solid #555;
+  border-radius: 32px;
+  color: #d65050;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  transition: all ease .2s;
+}
 /*---- Contact us ----*/
+.contact {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.well {
+  color: #ffffff;
+  border: none;
+  background: none;
+}
+
 #success_message { 
   display: none;
 }
