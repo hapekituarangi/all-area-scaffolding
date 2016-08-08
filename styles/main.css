@@ -50,7 +50,7 @@ body {
   background-size: cover;
   }
 .home-image {
-  background: url("https://unsplash.it/1601/600/") no-repeat center top fixed;
+  background: url("https://unsplash.it/1603/600/") no-repeat center top fixed;
   background-size: cover;
   z-index: -1
 }
